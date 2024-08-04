@@ -1,0 +1,10 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Lora", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
