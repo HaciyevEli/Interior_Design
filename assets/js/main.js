@@ -14,6 +14,19 @@ $(document).ready(function(){
   $('.silder-prev').click(function() {
     $(".header-silder").trigger('next.owl.carousel');
   });
+
+  /****   FANCYBOX ****/ 
+
+  Fancybox.bind("[data-fancybox]", {
+    Thumbs: false,
+    Toolbar: {
+      display: {
+        left: [],
+        middle: [],
+        right: ["close"],
+      },
+    },
+  });
 });
 
 
