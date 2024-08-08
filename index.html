@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./assets/libs/OwlCarousel/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/media.css">
   <title>Interior Design</title>
 </head>
 
@@ -17,9 +18,9 @@
     <div class="header-top">
       <div class="container">
         <nav class="header-nav">
-          <a href="#!" class="text-upper">ОБО МНЕ</a>
-          <a href="#!" class="text-upper">ПОРТФОЛИО</a>
-          <a href="#!" class="text-upper">КОНТАКТЫ</a>
+          <a href="#about" class="text-upper">ОБО МНЕ</a>
+          <a href="#porfolio" class="text-upper">ПОРТФОЛИО</a>
+          <a href="#contacts" class="text-upper">КОНТАКТЫ</a>
         </nav>
       </div>
     </div>
@@ -36,7 +37,7 @@
           <div class="start-video__text">
             <div class="start-video__btn">
               <svg class="svg-arrow">
-                <use href="./assets/img/icon/svg-sprite.svg#svg-arrow">
+                <use href="./assets/img/icon/svg-sprite2.svg#svg-arrow2">
               </svg>
             </div>
             <p>Смотреть видео-презентацию</p>
@@ -60,12 +61,12 @@
       <div class="header-silder__nav">
         <button class="silder-next">
           <svg class="svg-arrow">
-            <use href="./assets/img/icon/svg-sprite.svg#svg-arrow">
+            <use href="./assets/img/icon/svg-sprite2.svg#svg-arrow2">
           </svg>
         </button>
         <button class="silder-prev">
           <svg class="svg-arrow">
-            <use href="./assets/img/icon/svg-sprite.svg#svg-arrow">
+            <use href="./assets/img/icon/svg-sprite2.svg#svg-arrow2">
           </svg>
         </button>
       </div>
@@ -74,14 +75,14 @@
 
   <!-- MAIN -->
   <main class="main">
-    <section class="porfolio ">
+    <section class="porfolio" id="porfolio">
       <div class="container">
         <div class="porfolio__titel">
           <h2 class="h2">
             Портфолио
           </h2>
         </div>
-        <div class="porfolio-content">
+        <div class="porfolio-content owl-carousel">
           <a class="portfolio-card" href="./assets/img/pic/1b.jpg" data-fancybox="gallery">
             <img src="./assets/img/pic/1.jpg" width="400" height="440" alt="img" />
           </a>
@@ -126,7 +127,7 @@
       </div>
     </section>
 
-    <section class="about ">
+    <section class="about" id="about">
       <div class="container">
         <div class="about__titel">
           <h2 class="h2">
@@ -167,7 +168,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <div class="contacts__titel">
           <h2 class="h2">
@@ -185,7 +186,7 @@
               </div>
 
               <div class="form-item">
-                <textarea class="form-textarea"  name="message" placeholder="Сообщение"></textarea>
+                <textarea class="form-textarea" name="message" placeholder="Сообщение"></textarea>
               </div>
               <div class="form-item">
                 <button class="form-buttom" type="submit">

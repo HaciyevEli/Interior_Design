@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .d-none {display: none;}
 
 body {
@@ -25,7 +29,7 @@ body {
 }
 
 .container {
-  max-width: 1270px;
+  width: 1270px;
   margin-inline: auto;
   margin-block: 0;
   padding-inline: 15px;
@@ -202,6 +206,7 @@ button, input, textarea, input::placeholder,textarea::placeholder {
 .start-video__text p {
   max-width: 170px;
   transition: .5s;
+  color: var(--color-black);
 }
 
 .start-video img {
@@ -314,6 +319,10 @@ button, input, textarea, input::placeholder,textarea::placeholder {
   filter:grayscale(1) ;
 }
 
+/* .porfolio-content-slider {
+  display: none;
+} */
+
 .about {
   padding-top: 100px;
   padding-bottom: 197px;
@@ -396,6 +405,10 @@ button, input, textarea, input::placeholder,textarea::placeholder {
   height: 245px;
   resize: none;
   color: #ACA9a9;
+}
+
+.form-textarea:focus, .form-input:focus {
+  border: 1px solid var(--color-yellow);
 }
 
 .form-item + .form-item {
